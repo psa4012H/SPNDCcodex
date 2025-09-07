@@ -1,70 +1,67 @@
-# Getting Started with Create React App
+# SPNDCodex
+Topic:-🩸 Blood Donor-Patient Connector
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A web application that connects blood donors with patients in need within the same geographical area. Donors can register via a form, and patients can search for available donors nearby based on blood type and location.
 
-## Available Scripts
+🧠 Inspiration
 
-In the project directory, you can run:
+During emergencies, finding a blood donor on time can be life-saving. Our goal is to streamline the process of connecting willing donors with patients in real time especially within local areas — through a simple, user-friendly platform.
 
-### `npm start`
+🔍 Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- 📝 Donor Registration Form
+- 📍 Geographical Matching (local area-based search)
+- 🔎 Search by Blood Type and Location
+- 📲 Contact Option for Patients to Reach Donors
+- 💡 Simple and Responsive UI
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+🛠 Tech Stack
 
-### `npm test`
+- Frontend: HTML, CSS 
+- Backend: Node.js, Javascript, React
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+📦 Folder Structure
 
-### `npm run build`
+  bash
+/blood-connect
+├── /frontend        # HTML/CSS/JS files
+├── /backend         # Node.js backend with donor APIs
+├── /public          # Static files
+├── /routes          # Express routes
+├── README.md
+└── package.json
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+🧗 Challenges We Faced
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Setting up real-time location-based search
+- Ensuring smooth integration between frontend and backend
+- Designing a minimal but effective user interface under time constraints
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+💡 Future Improvements
 
-### `npm run eject`
+- SMS/Email alerts for patients and donors
+- Deployment to a cloud platform (e.g., Render, Vercel, or Heroku)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+👥 Team - SPNDCodeX
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+ 👩‍💻 Siddhi Pawar
+ 👨‍💻 Tanzeel Fatima Siddique
+ 👩‍💻 Naziya Khan
+ 👩‍💻 Sameena Kazi 
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+📄 License
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+This project is created as part of an online hackathon and is open-source for educational and non-commercial use.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
